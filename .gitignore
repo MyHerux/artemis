@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 artemis-dev/artemis-dev.iml
-artemis-dev/src/
 artemis-configserver/target/
+
