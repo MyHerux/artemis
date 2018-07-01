@@ -11,8 +11,8 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>artemis-server</artifactId>
-    <name>Artemis Server</name>
+    <artifactId>artemis-configserver</artifactId>
+    <name>Artemis ConfigServer</name>
 
 
     <dependencies>

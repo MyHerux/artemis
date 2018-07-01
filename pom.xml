@@ -18,7 +18,7 @@
         <module>artemis-core</module>
         <module>artemis-metaserver</module>
         <module>artemis-portal</module>
-        <module>artemis-server</module>
+        <module>artemis-configserver</module>
     </modules>
 
     <parent>

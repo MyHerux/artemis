@@ -2,5 +2,4 @@
 .idea/
 artemis-dev/artemis-dev.iml
 artemis-dev/src/
-artemis-server/target/
-*.iml
+artemis-configserver/target/
