@@ -1,7 +1,7 @@
 package com.xu.artemis.portal.service;
 
-import com.xu.artemis.portal.domain.App;
-import com.xu.artemis.portal.domain.AppRepository;
+import com.xu.artemis.portal.entity.App;
+import com.xu.artemis.portal.repository.AppRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
