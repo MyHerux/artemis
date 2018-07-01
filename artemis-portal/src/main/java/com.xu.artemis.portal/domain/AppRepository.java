@@ -1,6 +1,5 @@
-package com.xu.artemis.portal.repository;
+package com.xu.artemis.portal.domain;
 
-import com.xu.artemis.portal.entities.App;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;

@@ -1,14 +1,13 @@
 package com.xu.artemis.portal.controller;
 
-import com.xu.artemis.portal.entities.App;
-import com.xu.artemis.portal.repository.AppRepository;
+import com.xu.artemis.portal.domain.App;
+import com.xu.artemis.portal.domain.AppRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;

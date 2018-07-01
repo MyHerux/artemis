@@ -2,7 +2,8 @@ package com.xu.artemis.portal.repository;
 
 
 import com.xu.artemis.portal.PortalApplicationTestConfiguration;
-import com.xu.artemis.portal.entities.App;
+import com.xu.artemis.portal.domain.App;
+import com.xu.artemis.portal.domain.AppRepository;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

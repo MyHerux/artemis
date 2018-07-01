@@ -1,4 +1,4 @@
-package com.xu.artemis.portal.entities;
+package com.xu.artemis.portal.domain;
 
 import lombok.Data;
 
