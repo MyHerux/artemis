@@ -73,14 +73,6 @@
                 <version>1.16.8</version>
             </dependency>
 
-            <!--h2 test -->
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <version>1.4.191</version>
-                <scope>test</scope>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -161,11 +153,6 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>2.7</version>
-                        <configuration>
-                            <format>xml</format>
-                            <maxmem>256m</maxmem>
-                            <aggregate>true</aggregate>
-                        </configuration>
                     </plugin>
                     <plugin>
                         <groupId>org.eluder.coveralls</groupId>
