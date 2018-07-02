@@ -13,6 +13,10 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <properties>
+        <start-class>com.xu.artemis.demo.DemoApplication</start-class>
+    </properties>
+
     <dependencies>
 
         <dependency>
