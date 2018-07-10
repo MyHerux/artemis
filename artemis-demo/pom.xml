@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>artemis-demo</artifactId>
-    <name>Artemis Portal</name>
+    <name>Artemis Demo</name>
 
     <parent>
         <groupId>com.xu.artemis</groupId>
@@ -47,9 +47,5 @@
         </dependency>
 
     </dependencies>
-
-    <build>
-        <finalName>artemis-demo</finalName>
-    </build>
 
 </project>
