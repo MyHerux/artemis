@@ -13,10 +13,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <properties>
-        <start-class>com.xu.artemis.demo.DemoApplication</start-class>
-    </properties>
-
     <dependencies>
 
         <dependency>
@@ -31,6 +27,13 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.tuckey</groupId>
             <artifactId>urlrewritefilter</artifactId>
             <version>4.0.4</version>
@@ -39,11 +42,6 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
         </dependency>
 
     </dependencies>
