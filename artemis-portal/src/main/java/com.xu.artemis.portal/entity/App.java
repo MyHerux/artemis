@@ -16,7 +16,7 @@ public class App implements Serializable {
     private static final long serialVersionUID = 1946995407873438016L;
 
     @Id
-    private String id;
+    private String appId;
 
     @Column(nullable = false)
     private String name;
