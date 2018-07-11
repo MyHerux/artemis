@@ -3,3 +3,5 @@
 artemis-dev/artemis-dev.iml
 artemis-configserver/target/
 
+*.iml
+
